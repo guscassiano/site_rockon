@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header li,
+header h1,
+section h2,
+section h3,
+form button {
+    font-family: 'Rubik 80s Fade', cursive;
+    font-weight: bold;
+}
+
+time,
+section p,
+label {
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    background-color: rgb(223, 217, 217);
+    font-weight: normal;
+}
+
+body > header {
+    padding: 20px;
+    background: #be8f0d;
+    color: #070e0f;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+section h2 {
+    font-size: 30px;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #070e0f;
+}
+
+header nav li {
+    display: inline;
+    margin: 20px;
+    font-size: 20px;
+}
+
+header nav li a{
+    color: #070e0f;
+    text-decoration: none;
+}
+
+.articles {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.articles h3 {
+    padding-right: 30px;
+    margin: 10px 0;
+}
+
+.articles p{
+    padding-right: 20px;
+    margin: 10px 0;
+}
+
+.articles a{
+    background-color: #070e0f;
+    color: #be8f0d;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+}
+
+.articles a:hover{
+    text-decoration: underline;
+}
+
+.articles img {
+    height: 300px;
+    width: 390px;
+}
+
+.rockon-image {
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+section {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+section .container h2,
+section .container h3 {
+    margin-bottom: 20px;
+}
+
+form input,
+form button {
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: #070e0f;
+    color: #be8f0d;
+    cursor: pointer;
+}
+
+input:focus {
+    outline-color: #be8f0d;
+}
+
+form button:hover {
+    background-color: #be8f0d;
+    color: #070e0f;
+}
+
+footer {
+    background-color: #be8f0d;
+    color: #070e0f;
+    padding-top: 10px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
